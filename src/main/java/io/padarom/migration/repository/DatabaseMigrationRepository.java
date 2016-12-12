@@ -76,7 +76,7 @@ public class DatabaseMigrationRepository implements MigrationRepositoryInterface
             Statement statement = null;
             statement = this.connection.createStatement();
             ResultSet results = statement.executeQuery("select max(batch) from " + this.table);
-
+            results.next();
             return results.getInt(1);
         } catch (SQLException e) {
             e.printStackTrace();

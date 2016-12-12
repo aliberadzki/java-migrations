@@ -45,6 +45,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- postgresql jdbc -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1212</version>
+        </dependency>
+
     </dependencies>
 
 </project>

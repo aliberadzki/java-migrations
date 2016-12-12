@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class MainTests {
+public class SQLiteTests {
 
     private MigrationRepositoryInterface migrationRepository;
     private Connection connection;
